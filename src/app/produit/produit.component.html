@@ -57,7 +57,6 @@
           <h2 class="mb-4 text-primary"><i class="fas fa-list me-2"></i>Produits Disponibles</h2>
           <div class="row">
             <div class="col-md-4 mb-4" *ngFor="let produit of produits">
-                <div class="card h-100 shadow-sm" (click)="selectionnerProduit(produit)"></div>
               <div class="card">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-primary">{{ produit.titre }}</h5>
